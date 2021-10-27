@@ -1,0 +1,76 @@
+body{
+    background-color:#297fb8;;
+}
+div.wrapper{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+}   
+div.login-box{
+    
+    margin: 3px auto 0 auto; 
+    background-color: white;
+    width:300px;
+    height:300px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+div.login-card{
+    width:250px;
+    height: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding:30px;
+}
+.login-header{
+    text-align: center;
+    font-size:3rem;
+    font-weight: bold;
+    color:#737573;
+
+}
+p.login-header-p{
+    margin:0;
+}
+.login-card-common{
+    margin-bottom:5px;
+    width:100%;
+    
+}
+div.loging-button-box{
+    box-sizing: border-box;
+    
+    
+}
+.login-button{
+  
+    padding:10px 0 10px 0;
+    color:white;
+    background-color:#297fb8 ;
+    box-shadow: none;
+    border: 0;
+    border-radius: 2px;
+    width:100%;
+}
+div.email-box{
+    box-sizing: border-box;
+}
+input[type="email"].email-input{
+    background-color: #ecf0f1;
+    text-align: center; 
+    border: 0;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    width:100%;
+    
+}
+input[type="password"].password-input{
+    background-color: #ecf0f1;
+    text-align: center; 
+    border: 0;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    width:100%;
+}
